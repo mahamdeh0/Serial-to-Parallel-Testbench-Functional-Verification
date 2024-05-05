@@ -1,0 +1,13 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-Q
+-unbuffered
+-timescale
+1ns/1ns
+-sysv
+-access
++rw
+design.sv
+testbench.sv

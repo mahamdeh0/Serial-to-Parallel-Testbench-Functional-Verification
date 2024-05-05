@@ -1,0 +1,220 @@
+xrun: 23.09-s001: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+TOOL:	xrun	23.09-s001: Started on May 05, 2024 at 12:13:22 EDT
+xrun
+	-Q
+	-unbuffered
+	-timescale 1ns/1ns
+	-sysv
+	-access +rw
+	design.sv
+	testbench.sv
+      s2p_transaction_ins.randomize();
+                                  |
+xmvlog: *W,FUNTSK (s2p_generator.sv,35|34): function called as a task without void'().
+	Top level design units:
+		$unit_0x67f934e9
+		tb_s2p
+Loading snapshot worklib.tb_s2p:sv .................... Done
+SVSEED default: 1
+xcelium> source /xcelium23.09/tools/xcelium/files/xmsimrc
+xcelium> run
+exp_data_out:00000000 is equal the act_data_out:00000000
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:00000000 is equal the act_data_out:00000000
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:00000000 is equal the act_data_out:00000000
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:00000000 is equal the act_data_out:00000000
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:00000000 is equal the act_data_out:00000000
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:00000000 is equal the act_data_out:00000000
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:00000000 is equal the act_data_out:00000000
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001101 is equal the act_data_out:10001101
+exp_full_tick:1 is equal the act_full_tick:1
+exp_data_out:10001101 is equal the act_data_out:10001101
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001101 is equal the act_data_out:10001101
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001101 is equal the act_data_out:10001101
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001101 is equal the act_data_out:10001101
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001101 is equal the act_data_out:10001101
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001101 is equal the act_data_out:10001101
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001101 is equal the act_data_out:10001101
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01100100 is equal the act_data_out:01100100
+exp_full_tick:1 is equal the act_full_tick:1
+exp_data_out:01100100 is equal the act_data_out:01100100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01100100 is equal the act_data_out:01100100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01100100 is equal the act_data_out:01100100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01100100 is equal the act_data_out:01100100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01100100 is equal the act_data_out:01100100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01100100 is equal the act_data_out:01100100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01100100 is equal the act_data_out:01100100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01110000 is equal the act_data_out:01110000
+exp_full_tick:1 is equal the act_full_tick:1
+exp_data_out:01110000 is equal the act_data_out:01110000
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01110000 is equal the act_data_out:01110000
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01110000 is equal the act_data_out:01110000
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01110000 is equal the act_data_out:01110000
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01110000 is equal the act_data_out:01110000
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01110000 is equal the act_data_out:01110000
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01110000 is equal the act_data_out:01110000
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:11000100 is equal the act_data_out:11000100
+exp_full_tick:1 is equal the act_full_tick:1
+exp_data_out:11000100 is equal the act_data_out:11000100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:11000100 is equal the act_data_out:11000100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:11000100 is equal the act_data_out:11000100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:11000100 is equal the act_data_out:11000100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:11000100 is equal the act_data_out:11000100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:11000100 is equal the act_data_out:11000100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:11000100 is equal the act_data_out:11000100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:11110100 is equal the act_data_out:11110100
+exp_full_tick:1 is equal the act_full_tick:1
+exp_data_out:11110100 is equal the act_data_out:11110100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:11110100 is equal the act_data_out:11110100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:11110100 is equal the act_data_out:11110100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:11110100 is equal the act_data_out:11110100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:11110100 is equal the act_data_out:11110100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:11110100 is equal the act_data_out:11110100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:11110100 is equal the act_data_out:11110100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001101 is equal the act_data_out:10001101
+exp_full_tick:1 is equal the act_full_tick:1
+exp_data_out:10001101 is equal the act_data_out:10001101
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001101 is equal the act_data_out:10001101
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001101 is equal the act_data_out:10001101
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001101 is equal the act_data_out:10001101
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001101 is equal the act_data_out:10001101
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001101 is equal the act_data_out:10001101
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001101 is equal the act_data_out:10001101
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10010111 is equal the act_data_out:10010111
+exp_full_tick:1 is equal the act_full_tick:1
+exp_data_out:10010111 is equal the act_data_out:10010111
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10010111 is equal the act_data_out:10010111
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10010111 is equal the act_data_out:10010111
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10010111 is equal the act_data_out:10010111
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10010111 is equal the act_data_out:10010111
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10010111 is equal the act_data_out:10010111
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10010111 is equal the act_data_out:10010111
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10000011 is equal the act_data_out:10000011
+exp_full_tick:1 is equal the act_full_tick:1
+exp_data_out:10000011 is equal the act_data_out:10000011
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10000011 is equal the act_data_out:10000011
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10000011 is equal the act_data_out:10000011
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10000011 is equal the act_data_out:10000011
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10000011 is equal the act_data_out:10000011
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10000011 is equal the act_data_out:10000011
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10000011 is equal the act_data_out:10000011
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001010 is equal the act_data_out:10001010
+exp_full_tick:1 is equal the act_full_tick:1
+exp_data_out:10001010 is equal the act_data_out:10001010
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001010 is equal the act_data_out:10001010
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001010 is equal the act_data_out:10001010
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001010 is equal the act_data_out:10001010
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001010 is equal the act_data_out:10001010
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001010 is equal the act_data_out:10001010
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:10001010 is equal the act_data_out:10001010
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01101001 is equal the act_data_out:01101001
+exp_full_tick:1 is equal the act_full_tick:1
+exp_data_out:01101001 is equal the act_data_out:01101001
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01101001 is equal the act_data_out:01101001
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01101001 is equal the act_data_out:01101001
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01101001 is equal the act_data_out:01101001
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01101001 is equal the act_data_out:01101001
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01101001 is equal the act_data_out:01101001
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01101001 is equal the act_data_out:01101001
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01011110 is equal the act_data_out:01011110
+exp_full_tick:1 is equal the act_full_tick:1
+exp_data_out:01011110 is equal the act_data_out:01011110
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01011110 is equal the act_data_out:01011110
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01011110 is equal the act_data_out:01011110
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01011110 is equal the act_data_out:01011110
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01011110 is equal the act_data_out:01011110
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01011110 is equal the act_data_out:01011110
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:01011110 is equal the act_data_out:01011110
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:11110100 is equal the act_data_out:11110100
+exp_full_tick:1 is equal the act_full_tick:1
+exp_data_out:11110100 is equal the act_data_out:11110100
+exp_full_tick:0 is equal the act_full_tick:0
+exp_data_out:11110100 is equal the act_data_out:11110100
+exp_full_tick:0 is equal the act_full_tick:0
+Simulation complete via $finish(1) at time 1 US + 0
+./testbench.sv:44   initial begin #1000; $finish; end
+xcelium> exit
+TOOL:	xrun	23.09-s001: Exiting on May 05, 2024 at 12:13:24 EDT  (total: 00:00:02)
